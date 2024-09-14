@@ -243,7 +243,7 @@ mod tests {
     #[tokio::test]
     async fn simple_lite_vision_should_work() -> Result<()> {
         let req = VisionLiteRequestBuilder::default()
-        .model("ep-20240821165029-dcqm2".to_string())
+        .model("qwen-vl-plus".to_string())
         .input(Input {messages : vec![
             VisionLiteMessage::System(SystemMessage{
                 content: String::from("你是一个识图大师，你能识别图片中的物体，并且可以详细的把它描述出来")
@@ -253,7 +253,7 @@ mod tests {
                                         ..Default::default() },
                                 Content { 
                                         image: Some(
-                                            String::from("https://www.pitpat.com/wp-content/uploads/2020/06/Sunny-2048x1536.jpg")
+                                            String::from("https://dashscope.oss-cn-beijing.aliyuncs.com/images/dog_and_girl.jpeg")
                                         ),
                                         ..Default::default()
                                     }],
