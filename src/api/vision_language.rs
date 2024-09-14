@@ -127,14 +127,12 @@ pub struct StreamOptionsParam {
 #[allow(dead_code)]
 #[derive(Debug, Clone, Deserialize)]
 pub struct VisionLiteResponse {
-    /// 本次请求的唯一标识
-    pub id: String,
-    /// 本次请求实际使用的模型名称和版本
-    pub model: String,
-    /// 固定为 chat.completion(非流式)，固定为 chat.completion.chunk（流式）
-    pub object: String,
+    /// 系统生成的标识本次调用的id。
+    pub id: Option<String>,
+    /// 本次调用的模型名。
+    pub model: Option<String>,
     /// 本次请求创建时间的 Unix 时间戳（秒）
-    pub created: i64,
+    pub created: Option<i64>,
     /// 本次请求的模型输出内容
     pub choices: Vec<Choice>,
     /// 本次请求的 tokens 用量
@@ -154,8 +152,6 @@ pub struct Choice {
     pub finish_reason: String,
     /// 模型输出的内容
     pub message: Message,
-    /// 当前内容的对数概率信息
-    pub logprobs: Option<ChoiceLogprobs>,
 }
 
 #[allow(dead_code)]
@@ -202,11 +198,14 @@ pub struct TopLogprob {
 #[derive(Debug, Clone, Deserialize)]
 pub struct Usage {
     /// 输入的 prompt token 数量
-    prompt_tokens: usize,
+    prompt_tokens: Option<usize>,
     /// 模型生成的 token 数量
-    completion_tokens: usize,
+    completion_tokens: Option<usize>,
     /// 本次请求消耗的总 token 数量（输入 + 输出）
-    total_tokens: usize,
+    total_tokens: Option<usize>,
+    output_tokens: Option<usize>,
+    input_tokens: Option<usize>,
+    image_tokens: Option<usize>
 }
 
 #[cfg(test)]
@@ -264,7 +263,6 @@ mod tests {
         info!("req_json:{:?}", serde_json::to_string(&req).unwrap());
         let res = SDK.vision_lite(&req).await?;
         //assert_eq!(res.model, ChatCompleteModel::Gpt3Turbo);
-        assert_eq!(res.object, "chat.completion");
         //assert_eq!(res.choices.len(), 0);
         let choice = &res.choices[0];
         assert_eq!(choice.message.content.clone(), "hello");

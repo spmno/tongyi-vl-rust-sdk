@@ -117,7 +117,10 @@ impl LlmSdk {
             .timeout(Duration::from_secs(TIMEOUT));
         let res = request_build.send_and_log().await?;
         info!("vision response: {:?}", res);
-        Ok(res.json::<VisionLiteResponse>().await?)
+        let text = res.text().await?;
+        info!("response text: {}", text);
+        let vision_response: VisionLiteResponse = serde_json::from_str(&text).unwrap();
+        Ok(vision_response)
     }
 
     //fn prepare_request(&self, req: &impl IntoRequest) -> &RequestBuilder {
