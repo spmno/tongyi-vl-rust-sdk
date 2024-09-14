@@ -1,0 +1,11 @@
+/home/sunqp/code/tongyi-vl-rust-sdk/target/debug/deps/libserde_urlencoded-83ee2362cfcdf817.rmeta: /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/serde_urlencoded-0.7.1/src/lib.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/serde_urlencoded-0.7.1/src/de.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/serde_urlencoded-0.7.1/src/ser/mod.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/serde_urlencoded-0.7.1/src/ser/key.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/serde_urlencoded-0.7.1/src/ser/pair.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/serde_urlencoded-0.7.1/src/ser/part.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/serde_urlencoded-0.7.1/src/ser/value.rs
+
+/home/sunqp/code/tongyi-vl-rust-sdk/target/debug/deps/serde_urlencoded-83ee2362cfcdf817.d: /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/serde_urlencoded-0.7.1/src/lib.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/serde_urlencoded-0.7.1/src/de.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/serde_urlencoded-0.7.1/src/ser/mod.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/serde_urlencoded-0.7.1/src/ser/key.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/serde_urlencoded-0.7.1/src/ser/pair.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/serde_urlencoded-0.7.1/src/ser/part.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/serde_urlencoded-0.7.1/src/ser/value.rs
+
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/serde_urlencoded-0.7.1/src/lib.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/serde_urlencoded-0.7.1/src/de.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/serde_urlencoded-0.7.1/src/ser/mod.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/serde_urlencoded-0.7.1/src/ser/key.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/serde_urlencoded-0.7.1/src/ser/pair.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/serde_urlencoded-0.7.1/src/ser/part.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/serde_urlencoded-0.7.1/src/ser/value.rs:

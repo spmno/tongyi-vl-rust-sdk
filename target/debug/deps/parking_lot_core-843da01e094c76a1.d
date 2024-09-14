@@ -1,0 +1,11 @@
+/home/sunqp/code/tongyi-vl-rust-sdk/target/debug/deps/libparking_lot_core-843da01e094c76a1.rmeta: /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/parking_lot_core-0.9.10/src/lib.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/parking_lot_core-0.9.10/src/parking_lot.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/parking_lot_core-0.9.10/src/spinwait.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/parking_lot_core-0.9.10/src/thread_parker/mod.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/parking_lot_core-0.9.10/src/util.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/parking_lot_core-0.9.10/src/word_lock.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/parking_lot_core-0.9.10/src/thread_parker/linux.rs
+
+/home/sunqp/code/tongyi-vl-rust-sdk/target/debug/deps/parking_lot_core-843da01e094c76a1.d: /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/parking_lot_core-0.9.10/src/lib.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/parking_lot_core-0.9.10/src/parking_lot.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/parking_lot_core-0.9.10/src/spinwait.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/parking_lot_core-0.9.10/src/thread_parker/mod.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/parking_lot_core-0.9.10/src/util.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/parking_lot_core-0.9.10/src/word_lock.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/parking_lot_core-0.9.10/src/thread_parker/linux.rs
+
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/parking_lot_core-0.9.10/src/lib.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/parking_lot_core-0.9.10/src/parking_lot.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/parking_lot_core-0.9.10/src/spinwait.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/parking_lot_core-0.9.10/src/thread_parker/mod.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/parking_lot_core-0.9.10/src/util.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/parking_lot_core-0.9.10/src/word_lock.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/parking_lot_core-0.9.10/src/thread_parker/linux.rs:

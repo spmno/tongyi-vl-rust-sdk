@@ -1,0 +1,1 @@
+/home/sunqp/code/tongyi-vl-rust-sdk/target/debug/libtongyi_llm_sdk.rlib: /home/sunqp/code/tongyi-vl-rust-sdk/src/api/chat_completion.rs /home/sunqp/code/tongyi-vl-rust-sdk/src/api/mod.rs /home/sunqp/code/tongyi-vl-rust-sdk/src/api/vision_language.rs /home/sunqp/code/tongyi-vl-rust-sdk/src/lib.rs

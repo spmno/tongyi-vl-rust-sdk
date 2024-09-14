@@ -1,0 +1,13 @@
+/home/sunqp/code/tongyi-vl-rust-sdk/target/debug/deps/libtracing-2ef3095c37fdf062.rmeta: /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/tracing-0.1.40/src/lib.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/tracing-0.1.40/src/macros.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/tracing-0.1.40/src/dispatcher.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/tracing-0.1.40/src/field.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/tracing-0.1.40/src/instrument.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/tracing-0.1.40/src/level_filters.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/tracing-0.1.40/src/span.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/tracing-0.1.40/src/stdlib.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/tracing-0.1.40/src/subscriber.rs
+
+/home/sunqp/code/tongyi-vl-rust-sdk/target/debug/deps/tracing-2ef3095c37fdf062.d: /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/tracing-0.1.40/src/lib.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/tracing-0.1.40/src/macros.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/tracing-0.1.40/src/dispatcher.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/tracing-0.1.40/src/field.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/tracing-0.1.40/src/instrument.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/tracing-0.1.40/src/level_filters.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/tracing-0.1.40/src/span.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/tracing-0.1.40/src/stdlib.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/tracing-0.1.40/src/subscriber.rs
+
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/tracing-0.1.40/src/lib.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/tracing-0.1.40/src/macros.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/tracing-0.1.40/src/dispatcher.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/tracing-0.1.40/src/field.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/tracing-0.1.40/src/instrument.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/tracing-0.1.40/src/level_filters.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/tracing-0.1.40/src/span.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/tracing-0.1.40/src/stdlib.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/tracing-0.1.40/src/subscriber.rs:

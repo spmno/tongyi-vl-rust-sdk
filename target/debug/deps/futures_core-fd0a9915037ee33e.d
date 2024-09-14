@@ -1,0 +1,11 @@
+/home/sunqp/code/tongyi-vl-rust-sdk/target/debug/deps/libfutures_core-fd0a9915037ee33e.rmeta: /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/futures-core-0.3.30/src/lib.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/futures-core-0.3.30/src/future.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/futures-core-0.3.30/src/stream.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/futures-core-0.3.30/src/task/mod.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/futures-core-0.3.30/src/task/poll.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/futures-core-0.3.30/src/task/__internal/mod.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/futures-core-0.3.30/src/task/__internal/atomic_waker.rs
+
+/home/sunqp/code/tongyi-vl-rust-sdk/target/debug/deps/futures_core-fd0a9915037ee33e.d: /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/futures-core-0.3.30/src/lib.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/futures-core-0.3.30/src/future.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/futures-core-0.3.30/src/stream.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/futures-core-0.3.30/src/task/mod.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/futures-core-0.3.30/src/task/poll.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/futures-core-0.3.30/src/task/__internal/mod.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/futures-core-0.3.30/src/task/__internal/atomic_waker.rs
+
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/futures-core-0.3.30/src/lib.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/futures-core-0.3.30/src/future.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/futures-core-0.3.30/src/stream.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/futures-core-0.3.30/src/task/mod.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/futures-core-0.3.30/src/task/poll.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/futures-core-0.3.30/src/task/__internal/mod.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/futures-core-0.3.30/src/task/__internal/atomic_waker.rs:

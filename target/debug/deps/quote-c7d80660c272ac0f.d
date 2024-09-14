@@ -1,0 +1,13 @@
+/home/sunqp/code/tongyi-vl-rust-sdk/target/debug/deps/libquote-c7d80660c272ac0f.rmeta: /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/quote-1.0.37/src/lib.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/quote-1.0.37/src/ext.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/quote-1.0.37/src/format.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/quote-1.0.37/src/ident_fragment.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/quote-1.0.37/src/to_tokens.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/quote-1.0.37/src/runtime.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/quote-1.0.37/src/spanned.rs
+
+/home/sunqp/code/tongyi-vl-rust-sdk/target/debug/deps/libquote-c7d80660c272ac0f.rlib: /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/quote-1.0.37/src/lib.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/quote-1.0.37/src/ext.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/quote-1.0.37/src/format.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/quote-1.0.37/src/ident_fragment.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/quote-1.0.37/src/to_tokens.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/quote-1.0.37/src/runtime.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/quote-1.0.37/src/spanned.rs
+
+/home/sunqp/code/tongyi-vl-rust-sdk/target/debug/deps/quote-c7d80660c272ac0f.d: /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/quote-1.0.37/src/lib.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/quote-1.0.37/src/ext.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/quote-1.0.37/src/format.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/quote-1.0.37/src/ident_fragment.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/quote-1.0.37/src/to_tokens.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/quote-1.0.37/src/runtime.rs /home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/quote-1.0.37/src/spanned.rs
+
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/quote-1.0.37/src/lib.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/quote-1.0.37/src/ext.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/quote-1.0.37/src/format.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/quote-1.0.37/src/ident_fragment.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/quote-1.0.37/src/to_tokens.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/quote-1.0.37/src/runtime.rs:
+/home/sunqp/.cargo/registry/src/rsproxy.cn-0dccff568467c15b/quote-1.0.37/src/spanned.rs:
