@@ -93,7 +93,7 @@ pub enum ContentType {
     ImageUrl,
 }
 
-#[derive(Serialize, Clone, Debug, Builder, Default)]
+#[derive(Serialize, Deserialize, Clone, Debug, Builder, Default)]
 pub struct Content {
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub text: Option<String>,
@@ -143,7 +143,7 @@ pub struct VisionLiteResponse {
 #[derive(Debug, Clone, Deserialize)]
 pub struct Choice {
     /// 当前元素在 choices 列表的索引
-    pub index: usize,
+    //pub index: usize,
     /// 模型停止生成 token 的原因。可能的值包括：
     /// stop：模型输出自然结束，或因命中请求参数 stop 中指定的字段而被截断
     /// length：模型输出因达到请求参数 max_token 指定的最大 token 数量而被截断
@@ -160,7 +160,13 @@ pub struct Message {
     /// 固定为 assistant
     pub role: String,
     /// 模型生成的消息内容，content 与 tool_calls 字段二者至少有一个为非空
-    pub content: String,
+    pub content: Vec<Content>,
+}
+
+#[allow(dead_code)]
+#[derive(Debug, Clone, Deserialize)]
+pub struct OutputContent {
+
 }
 
 #[allow(dead_code)]
@@ -208,6 +214,23 @@ pub struct Usage {
     image_tokens: Option<usize>
 }
 
+///////////////////////////////////////////////// DashScope Response //////////////////////////////////
+#[allow(dead_code)]
+#[derive(Debug, Clone, Deserialize)]
+pub struct VisionDashScoptResponse {
+    pub output: Output,
+    pub usage: Usage,
+    pub request_id: String
+}
+
+#[allow(dead_code)]
+#[derive(Debug, Clone, Deserialize)]
+pub struct Output {
+    pub choices: Vec<Choice>,
+}
+
+
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -252,7 +275,8 @@ mod tests {
                                         ..Default::default() },
                                 Content { 
                                         image: Some(
-                                            String::from("https://dashscope.oss-cn-beijing.aliyuncs.com/images/dog_and_girl.jpeg")
+                                            //String::from("https://dashscope.oss-cn-beijing.aliyuncs.com/images/dog_and_girl.jpeg")
+                                            String::from("https://lio-dev.tos-cn-beijing.volces.com/lio-picture/1721267882992-car.png")
                                         ),
                                         ..Default::default()
                                     }],
@@ -264,8 +288,8 @@ mod tests {
         let res = SDK.vision_lite(&req).await?;
         //assert_eq!(res.model, ChatCompleteModel::Gpt3Turbo);
         //assert_eq!(res.choices.len(), 0);
-        let choice = &res.choices[0];
-        assert_eq!(choice.message.content.clone(), "hello");
+        let choice = &res.output.choices[0];
+        assert_eq!(choice.message.content[0].text, None);
 
         //assert_eq!(choice.delta, "hello");
         //assert_eq!(choice.message.tool_calls.len(), 0);

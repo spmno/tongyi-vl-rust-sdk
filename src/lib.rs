@@ -106,7 +106,7 @@ impl LlmSdk {
         Ok(())
     }
     
-    pub async fn vision_lite(&self, req: &VisionLiteRequest) -> Result<VisionLiteResponse> {
+    pub async fn vision_lite(&self, req: &VisionLiteRequest) -> Result<VisionDashScoptResponse> {
         let url = format!("{}/multimodal-generation/generation", self.base_url);
         info!("url:{}", url);
         let request_build = self
@@ -119,8 +119,9 @@ impl LlmSdk {
         info!("vision response: {:?}", res);
         let text = res.text().await?;
         info!("response text: {}", text);
-        let vision_response: VisionLiteResponse = serde_json::from_str(&text).unwrap();
+        let vision_response: VisionDashScoptResponse = serde_json::from_str(&text).unwrap();
         Ok(vision_response)
+        //Ok(res.json::<VisionDashScoptResponse>().await?)
     }
 
     //fn prepare_request(&self, req: &impl IntoRequest) -> &RequestBuilder {
