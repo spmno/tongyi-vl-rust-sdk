@@ -63,7 +63,7 @@ pub struct VisionLiteRequest {
 #[allow(dead_code)]
 #[derive(Serialize, Clone, Debug)]
 pub struct  Input {
-    messages: Vec<VisionLiteMessage>,
+    pub messages: Vec<VisionLiteMessage>,
 }
 
 
@@ -82,7 +82,7 @@ pub enum VisionLiteMessage {
 #[derive(Serialize, Clone, Debug)]
 pub struct SystemMessage {
     /// 消息内容
-    content: String,
+    pub content: String,
 }
 
 #[derive(Serialize, Clone, Debug, Default)]
