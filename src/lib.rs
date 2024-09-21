@@ -20,7 +20,6 @@ pub struct LlmSdk {
     #[builder(setter(into), default = r#""/api/v3/chat/completions".into()"#)]
     pub(crate) base_url: String,
     pub(crate) key: String,
-    pub(crate) client: Client,
 }
 
 pub trait MessageEvent {
@@ -32,7 +31,6 @@ impl LlmSdk {
     pub fn new(key: String) -> Self {
         Self {
             key,
-            client: Client::new(),
             base_url: "https://dashscope.aliyuncs.com/api/v1/services/aigc".to_string(),
         }
     }
@@ -43,8 +41,8 @@ impl LlmSdk {
     ) -> Result<ChatCompletionResponse> {
         let url = format!("{}/chat/completions", self.base_url);
         info!("url:{}", url);
-        let request_build = self
-            .client
+        let client = Client::new();
+        let request_build = client
             .post(url)
             .json(req)
             .bearer_auth(&self.key)
@@ -61,8 +59,8 @@ impl LlmSdk {
     ) -> Result<()> {
         let url = format!("{}/chat/completions", self.base_url);
         info!("url:{}", url);
-        let request_build = self
-            .client
+        let client = Client::new();
+        let request_build = client
             .post(url)
             .json(req)
             .bearer_auth(&self.key)
@@ -109,8 +107,8 @@ impl LlmSdk {
     pub async fn vision_lite(&self, req: &VisionLiteRequest) -> Result<VisionDashScoptResponse> {
         let url = format!("{}/multimodal-generation/generation", self.base_url);
         info!("url:{}", url);
-        let request_build = self
-            .client
+        let client = Client::new();
+        let request_build = client
             .post(url)
             .json(req)
             .bearer_auth(&self.key)
