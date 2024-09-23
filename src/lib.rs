@@ -106,14 +106,28 @@ impl LlmSdk {
     
     pub async fn vision_lite(&self, req: &VisionLiteRequest) -> Result<VisionDashScoptResponse> {
         let url = format!("{}/multimodal-generation/generation", self.base_url);
-        info!("url:{}", url);
-        let client = Client::new();
+        info!("url, key:{}, {}", url, self.key);
+        let client = Client::builder().danger_accept_invalid_certs(true)
+            .build()
+            .unwrap();
         let request_build = client
             .post(url)
             .json(req)
             .bearer_auth(&self.key)
             .timeout(Duration::from_secs(TIMEOUT));
-        let res = request_build.send_and_log().await?;
+        info!("before res");
+        let res = request_build.send().await?;
+        info!("after res");
+        let status = res.status();
+        info!("status:{}", status);
+        if status.is_client_error() || status.is_server_error() {
+            info!("status: {}", status);
+            let text = res.text().await?;
+            error!("API failed: {}", text);
+            return Err(anyhow!("API failed: {}", text));
+        } else {
+            info!("res success.");
+        }
         info!("vision response: {:?}", res);
         let text = res.text().await?;
         info!("response text: {}", text);
@@ -146,6 +160,8 @@ impl SendAndLog for RequestBuilder {
             let text = res.text().await?;
             error!("API failed: {}", text);
             return Err(anyhow!("API failed: {}", text));
+        } else {
+            info!("res success.");
         }
         Ok(res)
     }
